@@ -1,0 +1,14 @@
+ai_learning/
+├── .env                  # Environment variables
+├── config/
+│   └── config.yaml      # Project configuration
+├── src/
+│   ├── utils/
+│   │   ├── logger.py    # Logging setup
+│   │   └── data_utils.py # Data processing utilities
+│   └── train.py         # Main training script
+├── requirements.txt      # Main dependencies
+├── requirements-dev.txt  # Development dependencies
+├── requirements_extended.txt # Extended ML dependencies
+├── Makefile             # Development commands
+└── README.md            # Project documentation

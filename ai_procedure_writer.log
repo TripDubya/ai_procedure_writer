@@ -1,0 +1,21 @@
+2025-04-12 09:29:10,337 - WARNING - Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2025-04-12 09:29:23,766 - INFO - Model and tokenizer initialized successfully
+2025-04-12 09:31:32,517 - INFO - Model and tokenizer initialized successfully
+2025-04-12 09:32:02,055 - INFO - Successfully generated procedure for prompt: laying down flooring...
+2025-04-12 09:32:02,056 - INFO - Procedure saved to generated_procedures\procedure_20250412_093202.txt
+2025-04-12 09:32:02,057 - INFO - Current GPU memory usage: N/A
+2025-04-12 09:32:02,057 - INFO - CUDNN benchmark enabled for optimization
+2025-04-12 09:33:13,336 - INFO - Successfully generated procedure for prompt: .\ai_env\Scripts\activate...
+2025-04-12 09:33:13,337 - INFO - Procedure saved to generated_procedures\procedure_20250412_093313.txt
+2025-04-12 09:33:13,337 - INFO - Current GPU memory usage: N/A
+2025-04-12 09:33:13,337 - INFO - CUDNN benchmark enabled for optimization
+2025-04-12 09:33:20,791 - INFO - Successfully generated procedure for prompt: python ai_procedure_writer.py...
+2025-04-12 09:33:20,794 - INFO - Procedure saved to generated_procedures\procedure_20250412_093320.txt
+2025-04-12 09:33:20,794 - INFO - Current GPU memory usage: N/A
+2025-04-12 09:33:20,794 - INFO - CUDNN benchmark enabled for optimization
+2025-04-12 09:33:42,040 - ERROR - Error occurred in procedure generation: Prompt cannot be empty
+2025-04-12 09:36:34,757 - INFO - Model and tokenizer initialized successfully
+2025-04-12 09:37:07,478 - INFO - Successfully generated procedure for prompt: how to build a train...
+2025-04-12 09:37:07,479 - INFO - Procedure saved to generated_procedures\procedure_20250412_093707.txt
+2025-04-12 09:37:07,479 - INFO - Current GPU memory usage: N/A
+2025-04-12 09:37:07,479 - INFO - CUDNN benchmark enabled for optimization
