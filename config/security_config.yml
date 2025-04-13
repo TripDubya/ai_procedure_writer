@@ -1,0 +1,29 @@
+security:
+  jwt:
+    expiry_hours: 1
+    algorithm: HS256
+  
+  rate_limiting:
+    requests_per_minute: 60
+    block_duration_minutes: 30
+  
+  password:
+    min_length: 12
+    require_special: true
+    require_numbers: true
+    require_uppercase: true
+    require_lowercase: true
+  
+  api:
+    max_request_size_mb: 10
+    allowed_origins:
+      - https://your-domain.com
+      - http://localhost:8501
+  
+  model:
+    trusted_sources:
+      - gpt2
+      - gpt2-medium
+      - gpt2-large
+    checksum_verification: true
+    max_model_size_mb: 1024

@@ -1,0 +1,44 @@
+ai_procedure_writer/
+├── src/
+│   ├── __init__.py
+│   ├── core/
+│   │   ├── __init__.py
+│   │   ├── model.py
+│   │   ├── tokenizer.py
+│   │   └── procedure_generator.py
+│   ├── api/
+│   │   ├── __init__.py
+│   │   └── endpoints.py
+│   ├── gui/
+│   │   ├── __init__.py
+│   │   └── streamlit_app.py
+│   └── utils/
+│       ├── __init__.py
+│       ├── logger.py
+│       └── error_handlers.py
+├── tests/
+│   ├── __init__.py
+│   ├── test_core.py
+│   ├── test_api.py
+│   └── test_gui.py
+├── docker/
+│   ├── Dockerfile
+│   └── docker-compose.yml
+├── .github/
+│   └── workflows/
+│       ├── test.yml
+│       ├── lint.yml
+│       └── deploy.yml
+├── config/
+│   ├── __init__.py
+│   ├── settings.py
+│   └── logging_config.yml
+├── requirements/
+│   ├── base.txt
+│   ├── dev.txt
+│   └── prod.txt
+├── .env.example
+├── .gitignore
+├── README.md
+├── setup.py
+└── Makefile

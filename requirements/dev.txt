@@ -1,0 +1,18 @@
+# Core dependencies
+streamlit>=1.26.0
+torch>=2.0.0
+transformers>=4.33.0
+python-dotenv>=1.0.0
+
+# Security
+python-jose>=3.3.0
+passlib>=1.7.4
+bcrypt>=4.0.1
+
+# Development tools
+black>=23.7.0
+flake8>=6.1.0
+pytest>=7.4.0
+
+# Logging and monitoring
+logging>=0.5.1.2
